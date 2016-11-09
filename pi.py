@@ -1,5 +1,8 @@
 #!/usr/bin/env python -i
 
+# Copyright (c) 2016 Vishal International Inc.
+# Copyright (c) 2016 VishNet Systems Inc.
+
 from decimal import *; from decimal import Decimal as Dec; #getcontext().prec = 1005; # 105
 #from fractions import *; from fractions import Fraction as Frac; toDec = lambda f:Dec(f.numerator)/f.denominator
 
