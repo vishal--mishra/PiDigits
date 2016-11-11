@@ -28,8 +28,9 @@ def PI(maxK=70, prec=1008, disp=1007):
         S += Dec(M)*L / X;
     pi = 426880 * 10005**Dec(".5") / S;
     print "PI(maxK=%d, getcontext().prec=%d, disp=%d) =\n%s" % (maxK, prec, disp, ("%s"%pi)[:disp]);
+    return Dec(("%s"%pi)[:disp]);
 
-PI();
+Pi = PI();
 print "===";
 print "PI(317,4501,4500)";
 print "PI(353,5022,5020)";
