@@ -1,6 +1,6 @@
 #!/usr/bin/env python -i
 
-# Calculating 
+# Calculating radical form expression for cos(2^n * pi / 257)
 
 from math import *;
 from decimal import Decimal as Dec, getcontext as gc; gc().prec=30; s = lambda r:Dec(r).sqrt()
