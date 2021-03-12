@@ -26,7 +26,7 @@ S = lambda a:"[ " + " | ".join(map(lambda x:str(x), a)) + " ] ";
 print( 'Here is how to calculate real radical form expression for %s -' % ('cos(pi*%s/257)'%[2**n for n in range(9)]).replace(' ','') )
 print( "Calculate: t[2] => z[4] => y[8] => x[16] => v[12] => u[8] => w[9]" )
 print( "t = %s\nz = %s\ny = %s\nx = %s\nv = %s\nu = %s\nw = %s"%(S(t),S(z),S(y),S(x),S(v),S(u),S(w)) )
-#print( "t = %s\nz = %s\ny = %s\nx = %s\nv = %s\nu = %s\nw = %s"%tuple([S(m) for m in [t,z,y,x,v,u,w]]); )
+#print( "t = %s\nz = %s\ny = %s\nx = %s\nv = %s\nu = %s\nw = %s"%tuple([S(m) for m in [t,z,y,x,v,u,w]]) )
 print( '\n'.join(['%s = %-14s = %s'%('2*cos(%3s*pi/257)'%2**n,2*cos(pi/257*2**n),str(w[n])) for n in range(9)]) )
 
 def paw(): # print( acos w/2  )
